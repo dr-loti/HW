@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>#1 Hair salon</title>
+            <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+    <link href="css/bootstrap-reboot.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+            <!-- JavaScript files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap-bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<div style="font-family:courier;">
+
+    <!-- Navigation bar -->
+
+ <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#"> <b class="text-info">#1 HAIR SALON</b></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+
+             <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Our services
+                 </a>
+                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#services">Styling</a>
+                     <a class="dropdown-item" href="#services">Coloring</a>
+                     <a class="dropdown-item" href="#services">Haircuts</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#prices" data-toggle="modal" data-target="#pricesModal">Prices</a>
+                 </div>
+             </li>
+
+             <li class="nav-item">
+                    <a class="nav-link" href="#appointment">Make an appointment</a>
+             </li>
+
+             <li class="nav-item">
+                    <a class="nav-link" href="#faq">FAQ</a>
+             </li>
+
+             <li class="nav-item">
+                    <a class="nav-link" href="#about" data-toggle="modal" data-target="#aboutModal">About us</a>
+             </li>
+
+             <li class="nav-item">
+                    <a class="nav-link" href="#benefits" data-toggle="modal" data-target="#benefitsModal">Benefits</a>
+             </li>
+
+             <li class="nav-item">
+                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sponsored by FRUCTIS</a>
+             </li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+         </form>
+     </div>
+ </nav>
+
+    <!-- Carousel -->
+   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+         <img src="https://content.selectbox.si/uploads/2013/11/darilni_paketi_frizerski_salon_meri_s_koper_2-1.jpg" class="mx-auto d-block w-50 h-50"  alt="img1">
+     </div>
+     <div class="carousel-item">
+         <img src="https://www.frizerskiateljemetka.si/wp-content/uploads/2017/12/frizerski-salon-metka-1920-1080.png" class="mx-auto d-block w-50 h-50" alt="img2">
+     </div>
+     <div class="carousel-item">
+         <img src="https://fresche.net/wp-content/uploads/2018/08/fresche-home-slide-red-hair-background-b-700x500.jpg" class="mx-auto d-block w-50 h-50" alt="img3">
+     </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+  </div>
+<br>
+<br>
+    <!-- Services -->
+ <div class="container mt-4" id="services">
+        <h2 class="text-center">Our services</h2>
+
+        <div class="row">
+
+            <div class="col-md-4">
+                <div class="round-card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="text-info">Styling</b>
+                        <a href="#prices" data-toggle="modal" data-target="#pricesModal">
+                            <img src="https://blackboston.com/wp-content/uploads/2017/07/magicwand.png" alt="wand" style="width:42px;height:42px;border:0;">
+                        </a>
+                        </h5>
+                    </div>
+                    <img src="https://www.study365.co.uk/wp-content/uploads/2019/03/Diploma-in-Hair-Care-and-Hair-Styling-Level-3.jpg" class="mx-auto rounded-circle" width="280" height="280"  alt="hair1">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="round-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="text-info">Coloring</b>
+                        <a href="#prices" data-toggle="modal" data-target="#pricesModal">
+                            <img src="data:image/png;base64,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" alt="wand" style="width:42px;height:42px;border:0;">
+                        </a>
+                        </h5>
+                    </div>
+                    <img src="https://akathistofthanksgiving.com/wp-content/uploads/Loreal-Paris-BMAG-Article-How-to-Dye-Your-Hair-with-Semi-Permanent-Hair-Color2-D.jpg" class="mx-auto rounded-circle" width="280" height="280"  alt="hair2">
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="round-card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b class="text-info">Haircuts</b>
+                        <a href="#prices" data-toggle="modal" data-target="#pricesModal">
+                            <img src="data:image/png;base64,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" alt="wand" style="width:42px;height:42px;border:0;">
+                        </a>
+                        </h5>
+                    </div>
+                    <img src="https://i.pinimg.com/736x/14/d0/89/14d0895857494b5cc9d52396bf40dfab.jpg" class="mx-auto rounded-circle" width="280" height="280" alt="hair3">
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<!-- Appointment -->
+    <div class="container mt-4" id="appointment">
+        <h2 class="text-center">Make an appointment</h2>
+        <br>
+
+        <div class="row">
+            <div class="col-md-4 offset-md-1 form-group">
+                <input type="text" class="form-control" placeholder="First and last name">
+
+                <input type="text" class="form-control mt-2" placeholder="Phone number">
+
+                <input type="text" class="form-control mt-2" placeholder="Date">
+
+                <textarea class="form-control mt-2" placeholder="Other info" rows="5"></textarea>
+
+                <input type="checkbox" class="mt-3"> I want to receive news, discounts and other offers.
+                <br>
+                <input type="checkbox" class="mt-3"> I read and agree to the<button class="btn btn-link" type="button"><i class="text-info" data-toggle="modal" data-target="#PrivacyPolicyModal">Privacy Policy.</i></button>
+                <br>
+                <button class="btn btn-outline-info center-block mt-3">Send</button>
+            </div>
+
+            <div class="col-md-4 offset-md-1">
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr class="table-info">
+                            <th>Day</th>
+                            <th>Working hours</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td><b>Monday</b></td>
+                            <td>9:00 - 17:30</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Tuesday</b></td>
+                            <td>10:00 - 18:00</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Wednesday</b></td>
+                            <td>9:00 - 17:30</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Thursday</b></td>
+                            <td>10:00 - 18:30</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Friday</b></td>
+                            <td>9:00 - 16:00</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Saturday</b></td>
+                            <td>8:30 - 15:00</td>
+                        </tr>
+
+                        <tr>
+                            <td><b>Sunday</b></td>
+                            <td>-CLOSED-</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>* We don't work on holidays.</p>
+            </div>
+        </div>
+    </div>
+<br>
+<br>
+<!-- FAQ -->
+    <div class="container mt-4" id="faq">
+        <h2 class="text-center">FAQ (Frequently Asked Questions)</h2>
+
+        <div class="accordion mt-4" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-info" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >
+                            What is the difference between a balayage and an ombre and highlights?
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        - Highlights and lowlights are used to add colour dimension starting from the root to tip. You may have heard the term “streaks” back in the 90’s.
+                        <br>
+                        - An ombre is used to add dimension by seamlessly melting one colour at your root to another colour at the tip. There is no harsh line where one colour starts and another one ends. The colours flow into each other. The ombre technique has one solid colour at the roots, and a different solid colour on the ends.
+                        <br>
+                        - Balayage is a free-hand technique used by your stylist to give your hair dimension, usually somewhere in the middle of an ombre and highlights. Where highlights will show distinctive streaks of different colours from roots to tips, and ombre shows a solid colour at the roots, and a different colour at the tips, balayage takes these two techniques and marries them together. You will still have one solid colour at your roots, but the free-hand technique will place varying levels of highlights at different heights in your hair. The highlights get blended seamlessly into the root colour of the hair. In some sections, the root colour will be the same all the way down to the tips of the hair.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-info" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you sculpt (trim) beards?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        We do offer beard sculpting with scissors and clippers. We are not a barber shop, so we cannot provide open blade/straight blade trims or shaves.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed text-info" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            TAPER VS. FADE: What's the difference?
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        We explained what a "fade" is in the types of haircuts section above. But you may run across a "taper" as well, and it might seem awfully similar. So, taper vs fade—which one should I ask for? Here's the difference:
+                        <br>
+                        - A taper is when the hair changes in length over a space, but never completely
+                        <br>
+                        - A fade is when the hair fades out, i.e. the hair eventually is reduced to nothing as it moves down towards the neck.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer class="container">
+        <div class="row">
+            <div class="col-md-4 offset-md-1">
+                <h3>Contact</h3>
+
+                <p><b class="text-info">#1 HAIR SALON</b><br>
+                    Tax number: <u>12345678912</u><br>
+                    Location: <u>Salon street 1</u><br>
+                    Phone: <u>01/832 732400</u><br>
+                    Email: <u>num.one@hairsalon.com</u></p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="img-fluid w-50" src="https://logopond.com/logos/6659a5769b1c7d4dda5a818eafe3d5ce.png" alt="fructis">
+            </div>
+
+            <div class="col-md-3">
+                <h3>Navigation</h3>
+
+                <ul>
+                    <li><a href="#services" class="text-info" >Our services</a></li>
+                    <li><a href="#appointment" class="text-info" >Make an appointment</a></li>
+                    <li><a href="#faq" class="text-info" >FAQ</a></li>
+                    <li><a href="#about" data-toggle="modal" data-target="#aboutModal" class="text-info" >About us</a></li>
+                    <li><a href="#about" data-toggle="modal" data-target="#benefitsModal" class="text-info" >Benefits</a></li>
+                    <li><a href="#about" data-toggle="modal" data-target="#pricesModal" class="text-info" >Prices</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright text-center py-3">Copyright © 2020 #1 HAIR SALON. <button class="btn btn-link" type="button" data-toggle="modal" data-target="#PrivacyPolicyModal"><i class="text-info">Privacy Policy.</i></button>
+        </div>
+    </footer>
+
+    <!-- About Modal -->
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <b class="exampleModalLabel text-info">About us</b>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        We pride ourselves on the fact we offer all hairdressing services to men, women and children.
+                        I think the main success of our salon is due to the very friendly staff who make everyone feel welcome, spending time on full consultations and only using top quality products as in Goldwell, TIGI, and Fructis.
+                        Goldwell is a prestigious and unique colouring system, that has many colouring options.
+                    </p>
+
+                    <p>
+                        Thirteen years on, we have steadily grown and employed seven staff members.
+                        We do lots of fundraising, like hair shows for crazy hats, and we always support Macmillan coffee mornings, local schools and various events.
+                        We try to keep on trend and focusing on new ideas, keeping an upbeat vibe in the salon. I’m always happy to give advice and answer any hair related questions you may have.
+                    </p>
+
+                    <img class="img-fluid w-100" src="https://images.thehairstyler.com/attachment_resources/attachments/1706/original/Untitled-2.jpg" alt="salon">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Prices Modal -->
+    <div class="modal fade" id="pricesModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" >
+                        <b class="exampleModalLabel text-info">Prices</b>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                        <table class="table-info">
+                         <thead>
+                          <tr>
+                           <th scope="col"><u>STYLING</u></th>
+                           <th scope="col"><u>PRICE</u></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                          <tr>
+                           <th scope="row">Blo Dry</th>
+                           <td>From.   £14.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Curling</th>
+                           <td>From.   £14.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Curling (Washed)</th>
+                           <td>From.   £22.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Hair up</th>
+                           <td>From.   £20.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Hair up (Washed)</th>
+                           <td>From.   £30.00</td>
+                          </tr>
+                         </tbody>
+                        </table>
+                <br>
+                        <table class="table-info">
+                         <thead>
+                          <tr>
+                           <th scope="col"><u>COLORING</u></th>
+                           <th scope="col"><u>PRICE</u></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                          <tr>
+                           <th scope="row">Roots</th>
+                           <td>From.     £45.00</td>
+                          </tr>
+                           <tr>
+                           <th scope="row">Roots and Colour Balance</th>
+                           <td>From.     £50.00</td>
+                          </tr>
+                           <tr>
+                           <th scope="row">Roots and Foils</th>
+                           <td>From.     £55.00</td>
+                          </tr>
+                           <tr>
+                           <th scope="row">Toner</th>
+                           <td>£5.00  -  £10.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row"></th>
+                           <td>* ( All prices include a Blo/Dry )</td>
+                          </tr>
+                         </tbody>
+                        </table>
+                <br>
+                        <table class="table-info">
+                         <thead>
+                          <tr>
+                           <th scope="col"><u>HAIRCUTS</u></th>
+                           <th scope="col"><u>PRICE</u></th>
+                          </tr>
+                         </thead>
+                         <tbody>
+                          <tr>
+                           <th scope="row">RoLadies Cut - Blo/Dryots</th>
+                           <td>From.     £32.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Ladies Re Style</th>
+                           <td>£38.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Ladies Wet Cut</th>
+                           <td>£20.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Ladies Dry Cut</th>
+                           <td>£18.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Gents Trim (Washed & Blo/Dry)</th>
+                           <td>£14.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Gents Trim (Dry)</th>
+                           <td>£12.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Girls Cut (Washed & Blo/Dry) - Under 16</th>
+                           <td>£22.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Girls Cut (Dry) - Under 16</th>
+                           <td>£12.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Boys (Washed & Blo/Dry) - Under 16</th>
+                           <td>£10.00</td>
+                          </tr>
+                          <tr>
+                           <th scope="row">Boys Trim (Dry) - Under 16</th>
+                           <td>£8.00</td>
+                          </tr>
+                         </tbody>
+                        </table>
+                <hr>
+                <p>
+                    <u>Please note:</u> Prices are a guide only and may vary according to hair length, time taken and products used.
+                </p>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits Modal -->
+    <div class="modal fade" id="benefitsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <b class="text-info">Benefits</b>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        <u>New clients</u> will receive <u>20% off any hair service!</u>
+                    </p>
+                    <img class="img-fluid w-100" src="https://www.salonsdirect.com/blog/wp-content/uploads/2017/08/Spotlight-on-TIGI-840x700.jpg" alt="tigi">
+                    <img class="img-fluid w-100" src="https://kao-h.assetsadobe3.com/is/image/content/dam/sites/kaousa/www-goldwell-com/content/master/image/kerasilk/revitalize/kerasilk-revitalize-careteaser-teaser-productrange-2019.jpg?wid=568" alt="Goldwell">
+                    <img class="img-fluid w-100" src="https://itziarabadblog.files.wordpress.com/2017/06/captura-de-pantalla-2017-06-27-a-las-22-53-59.png?w=760" alt="fructis2">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-dismiss="modal">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Privacy Policy -->
+    <div class="modal fade" id="PrivacyPolicyModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <b class="exampleModalLabel text-info">Privacy Policy</b>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid w-100" src="https://www.freeprivacypolicy.com/blog/wp-content/uploads/2018/07/github-privacy-policy-information-website-browsers-users-accounts-clause.jpg" alt="PP">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-info" data-dismiss="modal">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>

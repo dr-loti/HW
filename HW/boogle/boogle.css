@@ -1,0 +1,156 @@
+.buttons {
+  text-align: right;
+  margin: auto;
+  font-size: 25px;
+  padding: 10px 15px;
+}
+
+.button1 {
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.button1:hover {
+  text-decoration:underline
+}
+
+.button2 {
+  color: white;
+  background-color: cornflowerblue;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.button2:hover {
+  background-color: royalblue;
+}
+
+#center{
+  width: 550px;
+  height: 470px;
+  margin: auto;
+}
+
+#image {
+  align: bottom;
+  height: 150px;
+  width: 350px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text{
+  align: bottom;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  border-radius: 20px;
+  height: 35px;
+  width: 550px;
+}
+
+#buttons2 {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 10px;
+}
+
+#button3, #button4 {
+  color: slategrey;
+  background-color: whitesmoke;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#button3:hover, #button4:hover  {
+ color: dimgrey;
+ border: 1px solid darkgrey;
+}
+
+#bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: whitesmoke;
+}
+
+.fixed {
+  position: relative;
+  padding: 15px;
+  width: 1350px;
+  height: 10px;
+  color: slategrey;
+  background-color: whitesmoke;
+}
+
+.button5, .button6, .button7, .button8 {
+  position: relative;
+  right: 40px;
+  top: 0;
+  padding: 5px;
+  width: 170px;
+  height: 30px;
+  color: slategrey;
+  background-color: whitesmoke;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline;
+   margin: auto;
+}
+
+.button9, .button10, .button11 {
+  position: relative;
+  left: 230px;
+  top: 0;
+  padding: 5px;
+  width: 150px;
+  height: 30px;
+  color: slategrey;
+  background-color: whitesmoke;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: inline;
+  margin: auto;
+}
+
+.button5:hover {
+  text-decoration:underline;
+}
+
+.button6:hover {
+  text-decoration:underline;
+}
+
+.button7:hover {
+  text-decoration:underline;
+}
+
+.button8:hover {
+  text-decoration:underline;
+}
+
+.button9:hover {
+  text-decoration:underline;
+}
+
+.button10:hover {
+  text-decoration:underline;
+}
+
+.button11:hover {
+  text-decoration:underline;
+}
