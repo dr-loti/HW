@@ -18,4 +18,4 @@ while guess != secret_num:
         print("No, it's higher than that.")
 
 else:
-    print("Yes, that's it. Congratulation.", "You guessed in", count, "tries")
+    print("Yes, that's it. It's number " + str(secret_num), "congratulation, you guessed in", count, "tries.")

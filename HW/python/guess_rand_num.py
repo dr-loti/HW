@@ -20,4 +20,4 @@ while number != x:
         print("Higher")
 
 else:
-    print("Yes, that's it. Congratulation.", "You guessed in", count, "tries")
+    print("Yes, that's it. It's number " + str(x), "congratulation, you guessed in", count, "tries.")
