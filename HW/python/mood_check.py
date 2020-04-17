@@ -1,5 +1,5 @@
 
-mood = input("Hi, how do you feel or in what mood are you today?: ").capitalize().lower()
+mood = input("Hi, how do you feel or in what mood are you today?: ").capitalize()
 
 if mood == "happy":
     print("It is great to see you happy!")
