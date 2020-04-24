@@ -1,5 +1,5 @@
 
-string = 'SMARTNINJAS'
+string = 'SMARTNINJAS \n'
 print(string.lower())
 
 string = "Today Is A BeautiFul DAY"
