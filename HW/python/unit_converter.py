@@ -13,6 +13,7 @@ while True:
         print("")
         print(str(a) + " kilometers = " + str(mi) + " miles.")
         print("")
+
     elif choice_1 == "b":
         b = input("Ok. Now insert miles: ")
 
@@ -21,6 +22,9 @@ while True:
         km = b * 1.609344
 
         print(str(b) + " miles = " + str(km) + " kilometers.")
+
+    else:
+        print('Error.')
 
     choice_2 = input("Would you like to do another conversion (y/n): ")
     print("")
