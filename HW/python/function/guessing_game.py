@@ -51,10 +51,10 @@ while True:
     selection = input("Choose the correct letter, wisely. Would you like to "
                       "A) play a new game, B) se the best scores, or C) quit the game? ")
 
-    if selection.upper() == "A":
+    if selection.upper() == "A" or selection.lower() == "a":
         play_game()
 
-    elif selection.upper() == "B":
+    elif selection.upper() == "B" or selection.lower() == "b":
         for score_dict in get_top_scores():
             print("Top 3 scores: " '\n' "Player " + score_dict.get("player_name") + " made " + str(score_dict["attempts"]) + " attempts, date: " + score_dict.get("date") + ". The secret number was: " + str(score_dict["secret_number"]))
 
